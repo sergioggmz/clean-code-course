@@ -2,7 +2,7 @@ import './style.css'
 import typescriptLogo from './typescript.svg'
 import viteLogo from '/vite.svg'
 import { setupCounter } from './counter.ts'
-import './code-smells/02-low-coupling.ts'
+import './solid/01-srp.ts';
 
 document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
   <div>
